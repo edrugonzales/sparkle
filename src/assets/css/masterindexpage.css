@@ -1,0 +1,53 @@
+.heading {
+  background-image: url("../svg/COVER\ PHOTO.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-bottom: 2em;
+  padding-top: 3em;
+  justify-content: center;
+  background-position: 40% 25%;
+}
+
+/* .heading-bg {
+  background-image: url("../gif/app_bg_christmas_day.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.heading-greetings {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.heading-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-search-shape {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  width: 23em;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-top: 0.2em;
+  box-shadow: inset 3px 4px 5px #d1dbe3;
+}
+
+.heading-logo {
+  height: 100px;
+  margin-bottom: -2em;
+}
+
+.menu--text {
+  text-align: center;
+  color: #0060bf;
+  font-size: 12px;
+  font-family: "montserrat";
+  font-weight: 500;
+  margin-top: -1em;
+}

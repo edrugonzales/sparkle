@@ -1,0 +1,8 @@
+{
+  "conventionalCommits.scopes": [
+    "Vortex",
+    "Paymongo",
+    "Spark on air",
+    "Sparkle"
+  ]
+}

@@ -1,0 +1,176 @@
+@import "./typography.css";
+
+body {
+  margin: 0 !important;
+}
+
+.transition-group {
+  flex: 1;
+  position: relative;
+}
+
+.router {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/*from the right */
+
+.fade-enter .page {
+  opacity: 0;
+  z-index: 1;
+}
+
+/*now in the middle */
+.fade-enter-done .page {
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 0;
+}
+
+/*animate on this class
+  this is a class happening the the to be shownpage 
+
+*/
+.fade-enter.fade-enter-active .page {
+  animation: cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation-name: run;
+  animation-duration: 0.3s;
+  /*`transition: opacity 250ms ease-in;*/
+  opacity: 1;
+}
+
+@keyframes run {
+  0% {
+    left: -100%;
+    right: 100%;
+  }
+  50% {
+    left: -50%;
+    right: 50%;
+  }
+  100% {
+    left: 0;
+    right: 0;
+  }
+}
+
+/* 
+
+bottom menu animation */
+
+.root {
+  margin-left: 0em; 
+  margin-right: 2em;
+  left: -5px !important;
+  right: 0;
+  bottom: -10px !important;
+  position: "fixed";
+  selected: "#448cf6";
+  border-radius: 0.5em;
+  width: "70% " !important;
+  z-index: 100;
+}
+
+.scrollingDown {
+  animation: cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation-name: dragdown;
+  animation-duration: 0.3s;
+  bottom: -5em;
+}
+
+.scrollingUp {
+  animation: cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation-name: dragup;
+  animation-duration: 0.3s;
+}
+
+@keyframes dragdown {
+  50% {
+    bottom: -1em;
+  }
+  100% {
+    bottom: -5em;
+  }
+}
+
+@keyframes dragup {
+  0% {
+    bottom: -5em;
+  }
+  100% {
+    bottom: 0.2em;
+  }
+}
+
+.ShareAir {
+  margin-bottom: -0.2em;
+  color: #3d9bf9;
+  background-color: #f2f7fd !important;
+  border-radius: 0.2em !important;
+  box-shadow: 0.2em 0.2em 5px -4px rgba(176, 168, 168, 0.89);
+  padding: 0.2em !important;
+  position: absolute !important;
+  right: 1rem;
+  top: 0.5em;
+  font-size: 1em;
+}
+
+/* overrides the material ui preset */
+
+.MuiBottomNavigationAction-label {
+  font-family: visby !important;
+}
+
+.Mui-focused {
+  opacity: 1;
+  color: black !important;
+}
+
+.MuiTextField-root {
+  margin-top: 1em !important;
+}
+
+.MuiOutlinedInput-root {
+  border-color: black;
+  border-width: 1px;
+  border-style: "solid";
+}
+
+/*override bottom navigation */
+.MuiBottomNavigation-root {
+  background-color: white !important;
+  margin-left: auto;
+  margin-right: 0;
+  width: 100%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 10px;
+  z-index: 99;
+  position: fixed;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+  color: #448cf6 !important;
+}
+
+/*override modal add border radius */
+.MuiDialog-paper {
+  padding: 1em;
+  border-radius: 2em !important;
+}

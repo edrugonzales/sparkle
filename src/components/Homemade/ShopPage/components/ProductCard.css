@@ -1,0 +1,88 @@
+.ProductCard {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 9px;
+  width: 10em;
+  max-width: 45%;
+}
+
+.AddButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  left: 10px;
+  background-color: #ffcf10;
+  padding: 2px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.FavButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 3px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.ProductImage {
+  border-radius: 10px 10px 0 0;
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ProductCardDetails {
+  margin: 0.2em;
+  margin-top: 0.4em;
+  font-size: 1.8em;
+  font-family: visby;
+}
+
+.NameAndPrice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.ProductPrice {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.ProductPriceDiscounted {
+  color: grey;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.Description {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  font-size: 10px;
+  color: grey;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}

@@ -1,0 +1,104 @@
+.m-1 {
+  margin: 5px;
+}
+
+.m-2 {
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.IconText {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1px;
+}
+
+.container {
+  position: relative;
+}
+
+.ProductHeader {
+  z-index: -1;
+}
+
+.ProductBody {
+  position: relative;
+  font-family: visby;
+  background-color: white;
+  border-radius: 1em;
+  margin-top: -1em;
+  z-index: 99;
+  padding: 2em;
+}
+
+.ProductDetailName {
+  font-weight: bold;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 240px;
+  font-family: "visby";
+}
+
+.ProductDetailPrice {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ProductPreviousPrice {
+  margin-right: 1em;
+  text-decoration: line-through;
+  color: grey;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.BottomButton {
+  position: sticky;
+  bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-family: visby;
+  z-index: 1;
+}
+
+.ProductDescription {
+  font-family: 'visby' !important;
+  font-size: 0.8em;
+  padding-top: 10%;
+}
+
+.container {
+  position: relative;
+}
+
+.tabpanel {
+  height: 50vh;
+}
+
+.ProductTab  .MuiTab-wrapper{
+    font-family: 'visby' !important;
+  text-transform: none;
+  color: #3d9bf9 !important;
+}
+/*overrides on tab styling */
+
+
+.MuiButton-label {
+  font-family: 'visby'  !important;
+  font-weight: bold;
+}

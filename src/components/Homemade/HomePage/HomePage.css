@@ -1,0 +1,39 @@
+.masonry_list {
+  background-color: #fff;
+  /* #e8e9eb; */
+  padding: 0px 0 100px 0;
+  width: 93%;
+  left: 50%;
+  margin: 0px 0 100px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50%);
+  grid-auto-rows: 10px;
+  transform: translateX(-50%);
+  position: absolute;
+  justify-content: center;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.deliverTo {
+  color: grey;
+  margin: 5px 0 0 0;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: visby;
+}
+
+.addressText {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: visby;
+  width: 80%;
+}
+
+.bag {
+  color: #448cf6 !important;
+  background-color: white !important;
+  border-radius: 0.2em !important;
+  box-shadow: 0.2em 0.2em 5px -4px rgba(176, 168, 168, 0.89);
+  padding: 0.3em !important;
+}

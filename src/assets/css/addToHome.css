@@ -1,0 +1,63 @@
+#popup {
+  position: fixed;
+  top: auto;
+  right: auto;
+  left: auto;
+  bottom: 5%;
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  background-color: #1cb0f5;
+  background-image: linear-gradient(
+    top,
+    #f97d4f 0%,
+    #fc5d23 50%,
+    #fd4703 51%,
+    #fd4703 100%
+  );
+  border: 2px solid #00234c;
+  -webkit-border-radius: 5px;
+  z-index: 9999;
+  text-align: center;
+  -webkit-box-shadow: 10px 10px 30px #333, -10px -10px 30px #333,
+    -10px 10px 30px #333, 10px -10px 30px #333;
+}
+
+.triangle::after {
+  position: absolute;
+  content: '';
+  height: 0px;
+  width: 0px;
+  left: 43%;
+  bottom: -20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #1cb0f5;
+  z-index: 9999;
+}
+
+.h4_addtohome {
+  color: black;
+  font-size: 18px;
+  font-family: Belleza;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.p__addtohome {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.popup-close-icon {
+  position: absolute;
+  width: 0px;
+  right: 20px;
+  top: 0px;
+  font-size: 24px;
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+}

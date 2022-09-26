@@ -1,0 +1,49 @@
+.name-price {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.gross-amount {
+  font-size: 0.8em;
+  font-weight: bold !important;
+  margin-left: 0.3em;
+  white-space: nowrap;
+}
+
+.add-sub {
+  font-size: 0.8em;
+  width: 5em;
+  /* background-color: #e0e6e9 !important; */
+  display: flex;
+  align-items: center;
+  border-radius: 0.8em;
+  font-weight: bold;
+}
+
+.add-sub--countnumber {
+  padding: 1em;
+}
+
+.add-sub--price {
+  color: #448cf6;
+}
+
+.add-sub--plus {
+  margin: auto !important;
+  cursor: pointer;
+  padding-left: 0.4em;
+  padding-right: 0.2em;
+  font-size: 1em;
+}
+
+.add-sub--minus {
+  margin: auto !important;
+  cursor: pointer;
+  padding-left: 0.2em;
+  padding-right: 0.4em;
+  font-size: 1em;
+}
+
+.product-price {
+  color: gray;
+}

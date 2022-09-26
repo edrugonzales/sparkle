@@ -1,0 +1,18 @@
+.items {
+  padding-top: 1em;
+}
+
+.header {
+  font-family: 'visby';
+}
+
+.checkout-button {
+  font-family: 'visby';
+  font-weight: bold;
+}
+
+/*overrides on the material ui */
+
+.MuiPaper-elevation4 {
+  box-shadow: none;
+}

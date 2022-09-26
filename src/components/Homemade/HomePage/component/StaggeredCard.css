@@ -1,0 +1,97 @@
+.cardBanner {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardDetails {
+  display: flex;
+  justify-content: start;
+  position: absolute;
+  bottom: 0px;
+  margin-left: 5px;
+  margin-top: 2em;
+}
+
+.cardImageContainerSmall {
+  padding: 10px;
+  height: 5.5em;
+}
+
+.cardImageContainerMedium {
+  padding: 10px;
+  height: 70%;
+}
+
+.cardImageContainerLarge {
+  padding: 10px;
+  height: 16.5em
+}
+
+.cardLogo {
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 0.15rem;
+  height: 30px;
+  width: 30px;
+}
+
+.cardTitle {
+  margin: 10px;
+  font-size: 10px;
+}
+
+.shopName {
+  display: flex;
+  font-family: visby;
+  padding-left: 0.6em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.partOne {
+  display: flex;
+  font-family: visby;
+}
+
+.partTwo {
+  display: flex;
+  font-family: visby;
+  padding-left: 0.7em;
+}
+
+.blur {
+  height: 100%;
+}
+
+/*this is for the cards preloader */
+.loading {
+  margin: 0.2em;
+  background: rgb(6, 128, 239);
+  background-image: linear-gradient(
+    90deg,
+    rgba(6, 128, 239, 1) 15%,
+    rgba(9, 186, 248, 1) 50%
+  );
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+  border-radius: 1em;
+
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: staggeredCardLoaders;
+  animation-timing-function: linear;
+}
+
+@keyframes staggeredCardLoaders {
+  0% {
+    background-position: -200px 0;
+  }
+
+  100% {
+    background-position: 50px 0;
+  }
+}

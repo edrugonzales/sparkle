@@ -1,0 +1,71 @@
+.login-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  font-family: "montserrat";
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login-modal__input {
+  margin-top: 2em;
+  width: 80%;
+}
+
+.login-modal__header {
+  font-weight: normal;
+}
+
+.login-modal__input-text--warning {
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.login-modal__warning-message {
+  padding-left: 1em;
+  align-self: flex-start;
+  text-align: left;
+  font-size: 0.8em;
+  color: red;
+}
+
+.login-modal__input-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  padding: 4px 10px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: inset 3px 4px 5px #d1dbe3;
+}
+
+.login-modal__submit {
+  background-color: #fddb27 !important;
+  color: #212121 !important;
+  width: 85%;
+  border-radius: 1em !important	;
+  margin-top: 2em !important;
+  margin-bottom: 3em !important;
+}
+
+.login-modal__forgot-password {
+  text-align: left;
+  font-size: 0.7em;
+  font-family: montserrat;
+  align-self: flex-start;
+  margin-left: 10%;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+.login-modal__sign-up {
+  text-align: left;
+  font-size: 0.7em;
+  font-family: montserrat;
+  margin-left: 10%;
+  font-weight: 500;
+}

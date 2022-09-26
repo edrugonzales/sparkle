@@ -1,0 +1,27 @@
+.spark-on-air {
+  display: block;
+  position: sticky;
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  top: -5em;
+  float: right;
+  margin-top: -5em;
+}
+
+.spark-on-air--image {
+  margin-left: -26px;
+  z-index: 99;
+  position: absolute;
+}
+
+.spark-on-air--card {
+  background-color: #0060bf;
+  color: white;
+  width: 10em;
+  padding-left: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}

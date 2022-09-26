@@ -1,0 +1,11 @@
+.MenuGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu-preloader {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}

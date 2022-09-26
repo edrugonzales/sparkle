@@ -1,0 +1,8 @@
+/*override the calendar*/
+.MuiFormLabel-root {
+	display: none
+}
+
+.MuiFocused {
+	border-style: solid !important;
+}
